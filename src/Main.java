@@ -22,8 +22,15 @@ public class Main {
         float a = 10;
         float b = 3;
         float c = a / b;
+        float d = a + b;
+        float e = a - b;
+        float f = a * b;
+        float h = a % b;
 
         System.out.println(c);
-
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(h);
     }
 }
