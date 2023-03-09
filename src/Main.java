@@ -36,8 +36,8 @@ public class Main {
 //        System.out.println(h);
 
 
-        String cursed = "34";
-        int cursed_num = Integer.parseInt(cursed);
+//        String cursed = "34";
+//        int cursed_num = Integer.parseInt(cursed);
 
 //        float cursed_math = cursed_num / a;
 
@@ -47,8 +47,8 @@ public class Main {
 //        String wtf = String.valueOf(victim);
 //        System.out.println(wtf.chars());
 
-        int a = 34;
-        int b = 4662;
+//        int a = 34;
+//        int b = 4662;
 
 
 //        if(a > b){
@@ -61,7 +61,8 @@ public class Main {
 
 //        String answer = a>b ? "a>b" : "a<b";
 //        System.out.println(answer);
+        Sum Local_sum = new Sum();
 
-
+        Local_sum.plus();
     }
 }
