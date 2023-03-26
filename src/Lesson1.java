@@ -1,8 +1,5 @@
-import java.lang.reflect.Type;
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args){
+public class Lesson1 {
+    public static void func(){
 //        System.out.println("Hello World! :)");
 //        int number = 11;
 //        System.out.println(number);
@@ -35,9 +32,9 @@ public class Main {
 //        System.out.println(f);
 //        System.out.println(h);
 
-
-        String cursed = "34";
-        int cursed_num = Integer.parseInt(cursed);
+//
+//        String cursed = "34";
+//        int cursed_num = Integer.parseInt(cursed);
 
 //        float cursed_math = cursed_num / a;
 
@@ -46,9 +43,9 @@ public class Main {
 //        int victim = 435345;
 //        String wtf = String.valueOf(victim);
 //        System.out.println(wtf.chars());
-
-        int a = 34;
-        int b = 4662;
+//
+//        int a = 34;
+//        int b = 4662;
 
 
 //        if(a > b){
