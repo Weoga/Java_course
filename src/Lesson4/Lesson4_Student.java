@@ -1,3 +1,5 @@
+package Lesson4;
+
 public class Lesson4_Student {
     public int age1;
 

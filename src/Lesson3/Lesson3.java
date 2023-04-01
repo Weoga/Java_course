@@ -1,3 +1,5 @@
+package Lesson3;
+
 public class Lesson3 {
     public static void lesson(){
         Lesson3_Animal Dog = new Lesson3_Animal();

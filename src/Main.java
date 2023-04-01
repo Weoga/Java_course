@@ -1,13 +1,40 @@
-import Lesson4.*;
+import Lesson3.Lesson3_Animal;
+import Lesson3.Lesson3_Calculator;
+
 public class Main {
     public static void main(String[] args){
+        Lesson3_Animal Dog = new Lesson3_Animal();
+//
+        Lesson3_Animal Cat = new Lesson3_Animal();
 
-        Cat my_Cat = new Cat(3,"Mein-kun");
+        Lesson3_Animal Croco = new Lesson3_Animal();
 
-        my_Cat.info();
 
-        my_Cat.eat();
-        my_Cat.eat("lasagna");
-        my_Cat.eat(23);
+        Dog.setName("Doggo");
+        Cat.setName("Garfield");
+        Dog.setAge(3);
+        Cat.setAge(5);
+        System.out.println("--------");
+
+        Croco.voice();
+//
+
+        Lesson3_Calculator calc = new Lesson3_Calculator();
+
+
+        boolean ask_for_input = calc.ask();
+
+        int a = 23;
+        int b = 69;
+        if (ask_for_input) {
+            System.out.println("Input number num1");
+            a = calc.parse();
+            System.out.println("Input number num2");
+            b = calc.parse();
+        }
+
+        int sum = calc.calc(a, b);
+
+        System.out.println("Sum is "+ sum);
     }
 }

@@ -1,3 +1,5 @@
+package Lesson3;
+
 import java.util.Objects;
 
 public class Lesson3_Animal {
