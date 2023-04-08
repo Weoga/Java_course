@@ -1,7 +1,7 @@
 package Lesson3;
 
 public class Lesson3 {
-    public static void lesson(){
+    public static void lesson3(){
         Lesson3_Animal Dog = new Lesson3_Animal();
 //
         Lesson3_Animal Cat = new Lesson3_Animal();
@@ -35,7 +35,5 @@ public class Lesson3 {
         int sum = calc.calc(a, b);
 
         System.out.println("Sum is "+ sum);
-
-
     }
 }
